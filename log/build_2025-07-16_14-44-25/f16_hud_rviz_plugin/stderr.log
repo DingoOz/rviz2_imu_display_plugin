@@ -1,0 +1,57 @@
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:[m[K In member function ‘[01m[Kvoid f16_hud_rviz_plugin::F16HudVisual::[01;32m[KsetTransparency[m[K(float)[m[K’:
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:58:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kunsigned int Ogre::ManualObject::[01;32m[KgetNumSections[m[K() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   58 |         if (pitchLine && [01;35m[KpitchLine->getNumSections()[m[K > 0)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreSceneManager.h:52[m[K,
+                 from [01m[K/home/dingo/Programming/rviz2_imu_display_plugin/include/f16_hud_rviz_plugin/f16_hud_visual.hpp:6[m[K,
+                 from [01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreManualObject.h:527:38:[m[K [01;36m[Knote: [m[Kdeclared here
+  527 |         OGRE_DEPRECATED unsigned int [01;36m[KgetNumSections[m[K(void) const;
+      |                                      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:60:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ogre::ManualObject[m[K’ has no member named ‘[01m[KsetDiffuseColour[m[K’
+   60 |             pitchLine->[01;31m[KsetDiffuseColour[m[K(_color);
+      |                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:64:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kunsigned int Ogre::ManualObject::[01;32m[KgetNumSections[m[K() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   64 |     if (_aircraftSymbol && [01;35m[K_aircraftSymbol->getNumSections()[m[K > 0)
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreManualObject.h:527:38:[m[K [01;36m[Knote: [m[Kdeclared here
+  527 |         OGRE_DEPRECATED unsigned int [01;36m[KgetNumSections[m[K(void) const;
+      |                                      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:66:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ogre::ManualObject[m[K’ has no member named ‘[01m[KsetDiffuseColour[m[K’
+   66 |         _aircraftSymbol->[01;31m[KsetDiffuseColour[m[K(_color);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:69:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kunsigned int Ogre::ManualObject::[01;32m[KgetNumSections[m[K() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   69 |     if (_airspeedTape && [01;35m[K_airspeedTape->getNumSections()[m[K > 0)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreManualObject.h:527:38:[m[K [01;36m[Knote: [m[Kdeclared here
+  527 |         OGRE_DEPRECATED unsigned int [01;36m[KgetNumSections[m[K(void) const;
+      |                                      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:71:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ogre::ManualObject[m[K’ has no member named ‘[01m[KsetDiffuseColour[m[K’
+   71 |         _airspeedTape->[01;31m[KsetDiffuseColour[m[K(_color);
+      |                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:74:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kunsigned int Ogre::ManualObject::[01;32m[KgetNumSections[m[K() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   74 |     if (_altitudeTape && [01;35m[K_altitudeTape->getNumSections()[m[K > 0)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreManualObject.h:527:38:[m[K [01;36m[Knote: [m[Kdeclared here
+  527 |         OGRE_DEPRECATED unsigned int [01;36m[KgetNumSections[m[K(void) const;
+      |                                      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:76:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ogre::ManualObject[m[K’ has no member named ‘[01m[KsetDiffuseColour[m[K’
+   76 |         _altitudeTape->[01;31m[KsetDiffuseColour[m[K(_color);
+      |                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:79:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kunsigned int Ogre::ManualObject::[01;32m[KgetNumSections[m[K() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   79 |     if (_headingDisplay && [01;35m[K_headingDisplay->getNumSections()[m[K > 0)
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreManualObject.h:527:38:[m[K [01;36m[Knote: [m[Kdeclared here
+  527 |         OGRE_DEPRECATED unsigned int [01;36m[KgetNumSections[m[K(void) const;
+      |                                      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:81:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ogre::ManualObject[m[K’ has no member named ‘[01m[KsetDiffuseColour[m[K’
+   81 |         _headingDisplay->[01;31m[KsetDiffuseColour[m[K(_color);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:[m[K In member function ‘[01m[Kvoid f16_hud_rviz_plugin::F16HudVisual::[01;32m[KupdateHeadingDisplay[m[K()[m[K’:
+[01m[K/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:322:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KheadingOffset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  322 |     float [01;35m[KheadingOffset[m[K = static_cast<float>(_yaw * 180.0 / M_PI);  // Convert to degrees
+      |           [01;35m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/f16_hud_rviz_plugin.dir/build.make:110: CMakeFiles/f16_hud_rviz_plugin.dir/src/f16_hud_visual.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:144: CMakeFiles/f16_hud_rviz_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+-I/home/dingo/Programming/rviz2_imu_display_plugin/include
+-o
+/home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin/moc_f16_hud_display.cpp
+/home/dingo/Programming/rviz2_imu_display_plugin/include/f16_hud_rviz_plugin/f16_hud_display.hpp

@@ -1,0 +1,41 @@
+[  0%] Built target imu_test_publisher_autogen_timestamp_deps
+[  0%] Built target f16_hud_rviz_plugin_autogen_timestamp_deps
+[  8%] Built target f16_hud_rviz_plugin_autogen
+[ 16%] Built target imu_test_publisher_autogen
+[ 50%] Built target imu_test_publisher
+[100%] Built target f16_hud_rviz_plugin
+-- Install configuration: ""
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/plugins_description.xml
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/lib/libf16_hud_rviz_plugin.so
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/bin/imu_test_publisher
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/plugins_description.xml
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/launch
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/launch/hud_demo.launch.py
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/config
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/config/hud_config.rviz
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin/f16_hud_visual.hpp
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin/imu_processor.hpp
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin/f16_hud_display.hpp
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/library_path.sh
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/library_path.dsv
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/f16_hud_rviz_plugin
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/f16_hud_rviz_plugin
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/path.sh
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/path.dsv
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/local_setup.bash
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/local_setup.sh
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/local_setup.zsh
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/local_setup.dsv
+-- Installing: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/package.dsv
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/ament_index/resource_index/packages/f16_hud_rviz_plugin
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/f16_hud_rviz_plugin
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/f16_hud_rviz_pluginConfig.cmake
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/f16_hud_rviz_pluginConfig-version.cmake
+-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/package.xml

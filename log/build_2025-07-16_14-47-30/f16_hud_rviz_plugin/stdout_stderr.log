@@ -1,0 +1,62 @@
+[  0%] Built target imu_test_publisher_autogen_timestamp_deps
+[  0%] Built target f16_hud_rviz_plugin_autogen_timestamp_deps
+[  8%] Built target imu_test_publisher_autogen
+[ 16%] Built target f16_hud_rviz_plugin_autogen
+[ 25%] Building CXX object CMakeFiles/f16_hud_rviz_plugin.dir/src/f16_hud_visual.cpp.o
+[ 58%] Built target imu_test_publisher
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp: In member function ‘void f16_hud_rviz_plugin::F16HudVisual::setTransparency(float)’:
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:58:51: warning: ‘unsigned int Ogre::ManualObject::getNumSections() const’ is deprecated [-Wdeprecated-declarations]
+   58 |         if (pitchLine && pitchLine->getNumSections() > 0)
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreSceneManager.h:52,
+                 from /home/dingo/Programming/rviz2_imu_display_plugin/include/f16_hud_rviz_plugin/f16_hud_visual.hpp:6,
+                 from /home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:1:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreManualObject.h:527:38: note: declared here
+  527 |         OGRE_DEPRECATED unsigned int getNumSections(void) const;
+      |                                      ^~~~~~~~~~~~~~
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:60:24: error: ‘class Ogre::ManualObject’ has no member named ‘setDiffuseColour’
+   60 |             pitchLine->setDiffuseColour(_color);
+      |                        ^~~~~~~~~~~~~~~~
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:64:59: warning: ‘unsigned int Ogre::ManualObject::getNumSections() const’ is deprecated [-Wdeprecated-declarations]
+   64 |     if (_aircraftSymbol && _aircraftSymbol->getNumSections() > 0)
+      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreManualObject.h:527:38: note: declared here
+  527 |         OGRE_DEPRECATED unsigned int getNumSections(void) const;
+      |                                      ^~~~~~~~~~~~~~
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:66:26: error: ‘class Ogre::ManualObject’ has no member named ‘setDiffuseColour’
+   66 |         _aircraftSymbol->setDiffuseColour(_color);
+      |                          ^~~~~~~~~~~~~~~~
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:69:55: warning: ‘unsigned int Ogre::ManualObject::getNumSections() const’ is deprecated [-Wdeprecated-declarations]
+   69 |     if (_airspeedTape && _airspeedTape->getNumSections() > 0)
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreManualObject.h:527:38: note: declared here
+  527 |         OGRE_DEPRECATED unsigned int getNumSections(void) const;
+      |                                      ^~~~~~~~~~~~~~
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:71:24: error: ‘class Ogre::ManualObject’ has no member named ‘setDiffuseColour’
+   71 |         _airspeedTape->setDiffuseColour(_color);
+      |                        ^~~~~~~~~~~~~~~~
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:74:55: warning: ‘unsigned int Ogre::ManualObject::getNumSections() const’ is deprecated [-Wdeprecated-declarations]
+   74 |     if (_altitudeTape && _altitudeTape->getNumSections() > 0)
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreManualObject.h:527:38: note: declared here
+  527 |         OGRE_DEPRECATED unsigned int getNumSections(void) const;
+      |                                      ^~~~~~~~~~~~~~
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:76:24: error: ‘class Ogre::ManualObject’ has no member named ‘setDiffuseColour’
+   76 |         _altitudeTape->setDiffuseColour(_color);
+      |                        ^~~~~~~~~~~~~~~~
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:79:59: warning: ‘unsigned int Ogre::ManualObject::getNumSections() const’ is deprecated [-Wdeprecated-declarations]
+   79 |     if (_headingDisplay && _headingDisplay->getNumSections() > 0)
+      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreManualObject.h:527:38: note: declared here
+  527 |         OGRE_DEPRECATED unsigned int getNumSections(void) const;
+      |                                      ^~~~~~~~~~~~~~
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:81:26: error: ‘class Ogre::ManualObject’ has no member named ‘setDiffuseColour’
+   81 |         _headingDisplay->setDiffuseColour(_color);
+      |                          ^~~~~~~~~~~~~~~~
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp: In member function ‘void f16_hud_rviz_plugin::F16HudVisual::updateHeadingDisplay()’:
+/home/dingo/Programming/rviz2_imu_display_plugin/src/f16_hud_visual.cpp:322:11: warning: unused variable ‘headingOffset’ [-Wunused-variable]
+  322 |     float headingOffset = static_cast<float>(_yaw * 180.0 / M_PI);  // Convert to degrees
+      |           ^~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/f16_hud_rviz_plugin.dir/build.make:110: CMakeFiles/f16_hud_rviz_plugin.dir/src/f16_hud_visual.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:144: CMakeFiles/f16_hud_rviz_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

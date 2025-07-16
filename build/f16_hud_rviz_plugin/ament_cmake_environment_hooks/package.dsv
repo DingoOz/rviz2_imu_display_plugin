@@ -1,0 +1,4 @@
+source;share/f16_hud_rviz_plugin/local_setup.bash
+source;share/f16_hud_rviz_plugin/local_setup.dsv
+source;share/f16_hud_rviz_plugin/local_setup.sh
+source;share/f16_hud_rviz_plugin/local_setup.zsh

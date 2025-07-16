@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000060] (f16_hud_rviz_plugin) JobQueued: {'identifier': 'f16_hud_rviz_plugin', 'dependencies': OrderedDict()}
+[0.000101] (f16_hud_rviz_plugin) JobStarted: {'identifier': 'f16_hud_rviz_plugin'}
+[0.008024] (f16_hud_rviz_plugin) JobProgress: {'identifier': 'f16_hud_rviz_plugin', 'progress': 'cmake'}
+[0.009516] (f16_hud_rviz_plugin) JobProgress: {'identifier': 'f16_hud_rviz_plugin', 'progress': 'build'}
+[0.009553] (f16_hud_rviz_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin', '--', '-j12', '-l12'], 'cwd': '/home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'dingo', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dingo', 'OLDPWD': '/home/dingo/Programming', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/dingo/.nvm/versions/node/v18.20.8/bin', 'NVM_INC': '/home/dingo/.nvm/versions/node/v18.20.8/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'NIX_PROFILES': '/nix/var/nix/profiles/default /home/dingo/.nix-profile', 'SYSTEMD_EXEC_PID': '3836', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/dingo/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dingo/Programming/rviz2_imu_display_plugin/install:/home/dingo/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dingo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dingo', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/bin:/home/dingo/.nvm/versions/node/v18.20.8/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/dingo/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/dingo/.local/bin:/home/dingo/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ThinkPad-X1-Yoga:@/tmp/.ICE-unix/3785,unix/ThinkPad-X1-Yoga:/tmp/.ICE-unix/3785', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/31410ca6_94b3_47fe_8f1c_082234e8419f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XWF392', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'NIX_SSL_CERT_FILE': '/etc/ssl/certs/ca-certificates.crt', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/home/dingo/.nix-profile/share:/nix/var/nix/profiles/default/share:/home/dingo/.nix-profile/share:/nix/var/nix/profiles/default/share:/home/dingo/.nix-profile/share:/nix/var/nix/profiles/default/share', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.032533] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099481] (-) TimerEvent: {}
+[0.199666] (-) TimerEvent: {}
+[0.205748] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.225886] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.231517] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.239318] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.248011] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.288407] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.289285] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299793] (-) TimerEvent: {}
+[0.345711] (f16_hud_rviz_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.389035] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.399939] (-) TimerEvent: {}
+[0.426677] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Found rviz_common: 14.1.12 (/opt/ros/jazzy/share/rviz_common/cmake)\n'}
+[0.440152] (f16_hud_rviz_plugin) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[0.441166] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.441408] (f16_hud_rviz_plugin) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.441491] (f16_hud_rviz_plugin) StdoutLine: {'line': b'--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.441570] (f16_hud_rviz_plugin) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.441644] (f16_hud_rviz_plugin) StdoutLine: {'line': b'--   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.441713] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[0.441782] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib\n'}
+[0.441849] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.441920] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[0.441987] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.442054] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.442121] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.442187] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.500047] (-) TimerEvent: {}
+[0.600256] (-) TimerEvent: {}
+[0.613507] (f16_hud_rviz_plugin) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[0.618420] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Found rviz_default_plugins: 14.1.12 (/opt/ros/jazzy/share/rviz_default_plugins/cmake)\n'}
+[0.700349] (-) TimerEvent: {}
+[0.704929] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.705807] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.715768] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.787767] (f16_hud_rviz_plugin) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.797169] (f16_hud_rviz_plugin) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.797445] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/dingo/Programming/rviz2_imu_display_plugin/include\n'}
+[0.797556] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.800454] (-) TimerEvent: {}
+[0.810203] (f16_hud_rviz_plugin) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.810410] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.813323] (f16_hud_rviz_plugin) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.813508] (f16_hud_rviz_plugin) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[0.816334] (f16_hud_rviz_plugin) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.817663] (f16_hud_rviz_plugin) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.826448] (f16_hud_rviz_plugin) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.826636] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.827906] (f16_hud_rviz_plugin) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.828999] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Configuring done (0.8s)\n'}
+[0.860432] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.866097] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin\n'}
+[0.900577] (-) TimerEvent: {}
+[0.908319] (f16_hud_rviz_plugin) StdoutLine: {'line': b'[  0%] Built target imu_test_publisher_autogen_timestamp_deps\n'}
+[0.908492] (f16_hud_rviz_plugin) StdoutLine: {'line': b'[  0%] Built target f16_hud_rviz_plugin_autogen_timestamp_deps\n'}
+[0.951313] (f16_hud_rviz_plugin) StdoutLine: {'line': b'[  7%] Automatic MOC for target imu_test_publisher\n'}
+[0.958535] (f16_hud_rviz_plugin) StdoutLine: {'line': b'[ 14%] Automatic MOC for target f16_hud_rviz_plugin\n'}
+[0.975942] (f16_hud_rviz_plugin) StdoutLine: {'line': b'[ 14%] Built target imu_test_publisher_autogen\n'}
+[0.986295] (f16_hud_rviz_plugin) StdoutLine: {'line': b'[ 14%] Built target f16_hud_rviz_plugin_autogen\n'}
+[0.997692] (f16_hud_rviz_plugin) StdoutLine: {'line': b'[ 21%] Generating include/f16_hud_rviz_plugin/moc_f16_hud_display.cpp\n'}
+[1.000669] (-) TimerEvent: {}
+[1.007338] (f16_hud_rviz_plugin) StdoutLine: {'line': b'[ 50%] Built target imu_test_publisher\n'}
+[1.034056] (f16_hud_rviz_plugin) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/f16_hud_rviz_plugin.dir/include/f16_hud_rviz_plugin/moc_f16_hud_display.cpp.o\n'}
+[1.100765] (-) TimerEvent: {}
+[1.200936] (-) TimerEvent: {}
+[1.301143] (-) TimerEvent: {}
+[1.401335] (-) TimerEvent: {}
+[1.501637] (-) TimerEvent: {}
+[1.601921] (-) TimerEvent: {}
+[1.702139] (-) TimerEvent: {}
+[1.802325] (-) TimerEvent: {}
+[1.902531] (-) TimerEvent: {}
+[2.002684] (-) TimerEvent: {}
+[2.102940] (-) TimerEvent: {}
+[2.203150] (-) TimerEvent: {}
+[2.303452] (-) TimerEvent: {}
+[2.403771] (-) TimerEvent: {}
+[2.504065] (-) TimerEvent: {}
+[2.604353] (-) TimerEvent: {}
+[2.704578] (-) TimerEvent: {}
+[2.804747] (-) TimerEvent: {}
+[2.905018] (-) TimerEvent: {}
+[3.005183] (-) TimerEvent: {}
+[3.105497] (-) TimerEvent: {}
+[3.205683] (-) TimerEvent: {}
+[3.305985] (-) TimerEvent: {}
+[3.406181] (-) TimerEvent: {}
+[3.506450] (-) TimerEvent: {}
+[3.606653] (-) TimerEvent: {}
+[3.706919] (-) TimerEvent: {}
+[3.807142] (-) TimerEvent: {}
+[3.907407] (-) TimerEvent: {}
+[4.007536] (-) TimerEvent: {}
+[4.107692] (-) TimerEvent: {}
+[4.207898] (-) TimerEvent: {}
+[4.308180] (-) TimerEvent: {}
+[4.408470] (-) TimerEvent: {}
+[4.508637] (-) TimerEvent: {}
+[4.608810] (-) TimerEvent: {}
+[4.709114] (-) TimerEvent: {}
+[4.809413] (-) TimerEvent: {}
+[4.909574] (-) TimerEvent: {}
+[5.009768] (-) TimerEvent: {}
+[5.074383] (f16_hud_rviz_plugin) StdoutLine: {'line': b'[ 64%] Linking CXX shared library libf16_hud_rviz_plugin.so\n'}
+[5.109903] (-) TimerEvent: {}
+[5.210213] (-) TimerEvent: {}
+[5.310441] (-) TimerEvent: {}
+[5.410779] (-) TimerEvent: {}
+[5.511003] (-) TimerEvent: {}
+[5.611226] (-) TimerEvent: {}
+[5.711414] (-) TimerEvent: {}
+[5.811611] (-) TimerEvent: {}
+[5.911933] (-) TimerEvent: {}
+[6.012246] (-) TimerEvent: {}
+[6.112500] (-) TimerEvent: {}
+[6.212685] (-) TimerEvent: {}
+[6.312888] (-) TimerEvent: {}
+[6.359635] (f16_hud_rviz_plugin) StdoutLine: {'line': b'[100%] Built target f16_hud_rviz_plugin\n'}
+[6.372279] (f16_hud_rviz_plugin) CommandEnded: {'returncode': 0}
+[6.372910] (f16_hud_rviz_plugin) JobProgress: {'identifier': 'f16_hud_rviz_plugin', 'progress': 'install'}
+[6.381001] (f16_hud_rviz_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin'], 'cwd': '/home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'dingo', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dingo', 'OLDPWD': '/home/dingo/Programming', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/dingo/.nvm/versions/node/v18.20.8/bin', 'NVM_INC': '/home/dingo/.nvm/versions/node/v18.20.8/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'NIX_PROFILES': '/nix/var/nix/profiles/default /home/dingo/.nix-profile', 'SYSTEMD_EXEC_PID': '3836', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/dingo/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dingo/Programming/rviz2_imu_display_plugin/install:/home/dingo/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dingo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dingo', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/bin:/home/dingo/.nvm/versions/node/v18.20.8/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/dingo/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/dingo/.local/bin:/home/dingo/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ThinkPad-X1-Yoga:@/tmp/.ICE-unix/3785,unix/ThinkPad-X1-Yoga:/tmp/.ICE-unix/3785', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/31410ca6_94b3_47fe_8f1c_082234e8419f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XWF392', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'NIX_SSL_CERT_FILE': '/etc/ssl/certs/ca-certificates.crt', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/home/dingo/.nix-profile/share:/nix/var/nix/profiles/default/share:/home/dingo/.nix-profile/share:/nix/var/nix/profiles/default/share:/home/dingo/.nix-profile/share:/nix/var/nix/profiles/default/share', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.389347] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[6.389512] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/plugins_description.xml\n'}
+[6.389596] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Installing: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/lib/libf16_hud_rviz_plugin.so\n'}
+[6.395703] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/lib/libf16_hud_rviz_plugin.so" to ""\n'}
+[6.395819] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/lib/f16_hud_rviz_plugin/imu_test_publisher\n'}
+[6.395857] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/plugins_description.xml\n'}
+[6.395891] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/launch\n'}
+[6.395925] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/launch/hud_demo.launch.py\n'}
+[6.395957] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/config\n'}
+[6.395989] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/config/hud_config.rviz\n'}
+[6.396019] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include\n'}
+[6.396151] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin\n'}
+[6.396290] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin/f16_hud_visual.hpp\n'}
+[6.396384] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin/imu_processor.hpp\n'}
+[6.396460] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin/f16_hud_display.hpp\n'}
+[6.396609] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/library_path.sh\n'}
+[6.396652] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/library_path.dsv\n'}
+[6.396685] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/f16_hud_rviz_plugin\n'}
+[6.396723] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/f16_hud_rviz_plugin\n'}
+[6.396754] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/ament_prefix_path.sh\n'}
+[6.396785] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/ament_prefix_path.dsv\n'}
+[6.396816] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/path.sh\n'}
+[6.396847] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/path.dsv\n'}
+[6.396878] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/local_setup.bash\n'}
+[6.396908] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/local_setup.sh\n'}
+[6.396937] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/local_setup.zsh\n'}
+[6.396967] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/local_setup.dsv\n'}
+[6.396996] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Installing: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/package.dsv\n'}
+[6.397025] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/ament_index/resource_index/packages/f16_hud_rviz_plugin\n'}
+[6.397057] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/f16_hud_rviz_plugin\n'}
+[6.397087] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.397120] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.397152] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.397186] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/f16_hud_rviz_pluginConfig.cmake\n'}
+[6.397221] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/f16_hud_rviz_pluginConfig-version.cmake\n'}
+[6.397254] (f16_hud_rviz_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/package.xml\n'}
+[6.397689] (f16_hud_rviz_plugin) CommandEnded: {'returncode': 0}
+[6.412667] (f16_hud_rviz_plugin) JobEnded: {'identifier': 'f16_hud_rviz_plugin', 'rc': 0}
+[6.413151] (-) TimerEvent: {}
+[6.413173] (-) EventReactorShutdown: {}

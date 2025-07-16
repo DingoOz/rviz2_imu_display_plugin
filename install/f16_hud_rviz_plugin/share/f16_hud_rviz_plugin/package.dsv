@@ -1,0 +1,17 @@
+source;share/f16_hud_rviz_plugin/hook/cmake_prefix_path.ps1
+source;share/f16_hud_rviz_plugin/hook/cmake_prefix_path.dsv
+source;share/f16_hud_rviz_plugin/hook/cmake_prefix_path.sh
+source;share/f16_hud_rviz_plugin/hook/ld_library_path_lib.ps1
+source;share/f16_hud_rviz_plugin/hook/ld_library_path_lib.dsv
+source;share/f16_hud_rviz_plugin/hook/ld_library_path_lib.sh
+source;share/f16_hud_rviz_plugin/hook/path.ps1
+source;share/f16_hud_rviz_plugin/hook/path.dsv
+source;share/f16_hud_rviz_plugin/hook/path.sh
+source;share/f16_hud_rviz_plugin/hook/pythonscriptspath.ps1
+source;share/f16_hud_rviz_plugin/hook/pythonscriptspath.dsv
+source;share/f16_hud_rviz_plugin/hook/pythonscriptspath.sh
+source;share/f16_hud_rviz_plugin/local_setup.bash
+source;share/f16_hud_rviz_plugin/local_setup.dsv
+source;share/f16_hud_rviz_plugin/local_setup.ps1
+source;share/f16_hud_rviz_plugin/local_setup.sh
+source;share/f16_hud_rviz_plugin/local_setup.zsh

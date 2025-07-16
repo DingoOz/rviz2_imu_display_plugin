@@ -1,0 +1,9 @@
+<library path="f16_hud_rviz_plugin">
+  <class name="f16_hud_rviz_plugin/F16HudDisplay"
+         type="f16_hud_rviz_plugin::F16HudDisplay"
+         base_class_type="rviz_common::Display">
+    <description>
+      F-16 style HUD display showing aircraft attitude from IMU data
+    </description>
+  </class>
+</library>

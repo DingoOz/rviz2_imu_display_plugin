@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-5387afd36b3037f2cd22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "f16_hud_rviz_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "f16_hud_rviz_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-f16_hud_rviz_plugin-Debug-6bb7fa5df8b36bc8064d.json",
+					"name" : "f16_hud_rviz_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "f16_hud_rviz_plugin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-f16_hud_rviz_plugin_autogen-Debug-aa8317771dd1049e6718.json",
+					"name" : "f16_hud_rviz_plugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "f16_hud_rviz_plugin_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-f16_hud_rviz_plugin_autogen_timestamp_deps-Debug-4a67b84dc34b2737b10d.json",
+					"name" : "f16_hud_rviz_plugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "f16_hud_rviz_plugin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-f16_hud_rviz_plugin_uninstall-Debug-ea0c16085fad40b115f4.json",
+					"name" : "f16_hud_rviz_plugin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_test_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_test_publisher-Debug-262abaa9a40cff0b15a4.json",
+					"name" : "imu_test_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_test_publisher_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_test_publisher_autogen-Debug-9632abe5ebac4bf03f56.json",
+					"name" : "imu_test_publisher_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_test_publisher_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_test_publisher_autogen_timestamp_deps-Debug-b4d523ef1a72f5cd9536.json",
+					"name" : "imu_test_publisher_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-e14d4968744f7428a496.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin",
+		"source" : "/home/dingo/Programming/rviz2_imu_display_plugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

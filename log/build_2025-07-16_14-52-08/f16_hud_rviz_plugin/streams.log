@@ -1,0 +1,45 @@
+[0.012s] Invoking command in '/home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin -- -j12 -l12
+[0.058s] [  0%] Built target imu_test_publisher_autogen_timestamp_deps
+[0.059s] [  0%] Built target f16_hud_rviz_plugin_autogen_timestamp_deps
+[0.086s] [  8%] Built target imu_test_publisher_autogen
+[0.099s] [ 16%] Built target f16_hud_rviz_plugin_autogen
+[0.117s] [ 50%] Built target imu_test_publisher
+[0.147s] [100%] Built target f16_hud_rviz_plugin
+[0.157s] Invoked command in '/home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin -- -j12 -l12
+[0.168s] Invoking command in '/home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin
+[0.177s] -- Install configuration: ""
+[0.177s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/plugins_description.xml
+[0.177s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/lib/libf16_hud_rviz_plugin.so
+[0.177s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/bin/imu_test_publisher
+[0.177s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/plugins_description.xml
+[0.177s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/launch
+[0.177s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/launch/hud_demo.launch.py
+[0.178s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/config
+[0.178s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/config/hud_config.rviz
+[0.178s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include
+[0.178s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin
+[0.178s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin/f16_hud_visual.hpp
+[0.178s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin/imu_processor.hpp
+[0.178s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/include/f16_hud_rviz_plugin/f16_hud_display.hpp
+[0.178s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/library_path.sh
+[0.178s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/library_path.dsv
+[0.178s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/f16_hud_rviz_plugin
+[0.179s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/f16_hud_rviz_plugin
+[0.179s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/ament_prefix_path.sh
+[0.179s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/ament_prefix_path.dsv
+[0.179s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/path.sh
+[0.179s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/environment/path.dsv
+[0.179s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/local_setup.bash
+[0.179s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/local_setup.sh
+[0.179s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/local_setup.zsh
+[0.179s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/local_setup.dsv
+[0.179s] -- Installing: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/package.dsv
+[0.179s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/ament_index/resource_index/packages/f16_hud_rviz_plugin
+[0.180s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/f16_hud_rviz_plugin
+[0.180s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.180s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[0.180s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.180s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/f16_hud_rviz_pluginConfig.cmake
+[0.180s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/cmake/f16_hud_rviz_pluginConfig-version.cmake
+[0.180s] -- Up-to-date: /home/dingo/Programming/rviz2_imu_display_plugin/install/f16_hud_rviz_plugin/share/f16_hud_rviz_plugin/package.xml
+[0.181s] Invoked command in '/home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dingo/Programming/rviz2_imu_display_plugin/build/f16_hud_rviz_plugin
